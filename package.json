@@ -1,0 +1,24 @@
+{
+  "name": "codewars",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/alstn2468/codewars",
+  "author": "Minsu Kim <alstn2468_@naver.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha src/**/*.spec.ts",
+    "coverage": "nyc npm run test && nyc report --reporter=html"
+  },
+  "dependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.1",
+    "@types/chai": "^4.3.10",
+    "@types/mocha": "^10.0.4"
+  }
+}
