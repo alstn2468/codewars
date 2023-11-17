@@ -1,6 +1,6 @@
 module.exports = {
-    require: ['chai', 'ts-node/register'],
-    ui: 'bdd',
-    reporter: 'spec',
-    growl: false,
+  require: ['chai', 'ts-node/register'],
+  ui: 'bdd',
+  reporter: 'spec',
+  growl: false,
 };
