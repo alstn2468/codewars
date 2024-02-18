@@ -1,14 +1,9 @@
 pub fn solution(s: &str) -> Vec<String> {
-    let chars = s.chars().collect::<Vec<_>>();
-    let chunks = chars.chunks(2);
-
-    let chunks = chunks.map(|chunk| {
-        let chunk = chunk.iter().collect::<String>();
-
-        format!("{:_<2}", chunk)
-    });
-
-    chunks.collect::<Vec<_>>()
+    s.chars()
+        .collect::<Vec<_>>()
+        .chunks(2)
+        .map(|chunk| format!("{:_<2}", chunk.iter().collect::<String>()))
+        .collect::<Vec<_>>()
 }
 
 #[cfg(test)]
