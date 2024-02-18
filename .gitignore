@@ -1,3 +1,4 @@
+# Typescript
 node_modules/
 npm-debug.log
 
@@ -7,3 +8,6 @@ coverage/
 coverage.lcov
 
 !.vscode/
+
+# Rust
+target
