@@ -5,6 +5,7 @@ pub mod multiple_of_three_or_five;
 pub mod split_strings;
 pub mod sum_of_numbers;
 pub mod take_a_ten_minutes_walk;
+pub mod unique_in_order;
 
 fn main() {
     println!("Hello World!");

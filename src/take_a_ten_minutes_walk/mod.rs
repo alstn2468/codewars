@@ -1,5 +1,5 @@
 pub fn is_valid_walk(walk: &[char]) -> bool {
-    if (walk.into_iter().len() != 10) {
+    if walk.into_iter().len() != 10 {
         return false;
     }
 
